@@ -19,7 +19,7 @@ class Calculator {
 
 	add() {
 		// Evite une erreur si les paramètres sont vides
-		if (arguments[0]){	
+		if (typeof Number(arguments[0]) === "number"){	
 			// La première valeur est définie comme notre valeur initiale
 		    var result = Number(arguments[0])
 		    // On teste s'il y a d'autres valeurs
@@ -32,13 +32,13 @@ class Calculator {
 		    return Number(result);
 		} else {
 			// Message dans le cas où il n'y a pas de paramètre
-			return "Veuillez spécifier une valeur"
+			return null
 		}
 	}
 	
 	substract() {
 		// Evite une erreur si les paramètres sont vides
-		if (arguments[0]){	
+		if (typeof Number(arguments[0]) === "number"){	
 			// La première valeur est définie comme notre valeur initiale
 		    var result = arguments[0]
 		    // On teste s'il y a d'autres valeurs
@@ -52,13 +52,13 @@ class Calculator {
 		    return Number(result);
 		} else {
 			// Message dans le cas où il n'y a pas de paramètre
-			return "Veuillez spécifier une valeur"
+			return null
 		}
 	}
 
 	divide() {
 		// Evite une erreur si les paramètres sont vides
-		if (arguments[0]){	
+		if (typeof Number(arguments[0]) === "number"){	
 			// La première valeur est définie comme notre valeur initiale
 		    var result = arguments[0]
 		    // On teste s'il y a d'autres valeurs
@@ -72,13 +72,13 @@ class Calculator {
 		    return Number(result);
 		} else {
 			// Message dans le cas où il n'y a pas de paramètre
-			return "Veuillez spécifier une valeur"
+			return null
 		}
 	}
 
 	multiply() {
 		// Evite une erreur si les paramètres sont vides
-		if (arguments[0]){	
+		if (typeof Number(arguments[0]) === "number"){	
 			// La première valeur est définie comme notre valeur initiale
 		    var result = arguments[0]
 		    // On teste s'il y a d'autres valeurs
@@ -92,7 +92,7 @@ class Calculator {
 		    return Number(result);
 		} else {
 			// Message dans le cas où il n'y a pas de paramètre
-			return "Veuillez spécifier une valeur"
+			return null
 		}
 	}
 
