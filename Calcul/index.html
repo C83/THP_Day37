@@ -14,7 +14,21 @@
   <body>
     <h1>Calculatrice</h1>
     <div class="container">
-      <div class="row">
+      <div class="row top-buffer">
+        <div class="col-1">
+          Calcul :
+        </div>
+        <div class="col-4 bg-secondary text-white" id="calcul-line"></div>
+      </div>
+
+      <div class="row top-buffer">
+        <div class="col-1">
+          Result :
+        </div>
+        <div class="col-4 bg-secondary text-white" id="result-line"></div>
+      </div>
+
+      <div class="row top-buffer">
         <div class="col-9">
           Number
           <div class="row top-buffer">
@@ -69,10 +83,10 @@
             <button type="button" class="btn btn-primary btn-lg button-calcul-ope">/</button>
           </div>
           <div class="row top-buffer">
-            <button type="button" class="btn btn-primary btn-lg button-calcul-ope">=</button>
+            <button type="button" id="button-calcul-result" class="btn btn-primary btn-lg">=</button>
           </div>
           <div class="row top-buffer">
-            <button type="button" class="btn btn-primary btn-lg button-calcul-ope">clear</button>
+            <button type="button" id="button-calcul-clear" class="btn btn-primary btn-lg">clear</button>
           </div>
         </div>
       </div>
