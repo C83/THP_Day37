@@ -16,4 +16,4 @@ I coded three functions. I writed some call in the code. If you want test it, us
     
     ex : ```reverse("Bonjour !") ``` returns ```! ruojnoB```
 
-You can visit page on this link : https://rawgit.com/C83/THP_Day37/master/Exo1/index.html
+You can visit page on this link : [RawGit](https://rawgit.com/C83/THP_Day37/master/Exo1/index.html)
